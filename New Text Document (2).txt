@@ -1,0 +1,253 @@
+Haamid zulfiqar 
+Assignment 2
+Blinding lights, The weeknd
+Toosie slide , Drake
+The box, Roddy Ricch
+Say So, Doja Cat
+Righteous, juice wrld
+Sunday Best, Surfaces
+Rojo, J Balvin
+Skechers, DripReport
+Porfa feid
+Amarillo J Balvin
+Yummy Justin Bieber 
+Morado J Balvin
+
+
+Public class Track {
+Private album album,
+Track next;
+/***
+Process initialization
+output: returning to new track
+**/
+public Track(album a){
+album=a;
+}
+/**
+Processing : it’s gets the album requirement
+For track**/
+
+Public album getalbum(){
+Return album;
+}
+/***
+process : return to next track
+**/
+
+Public track getnext(){
+Return next;
+}
+
+
+/**
+output :new track
+***/
+
+Public track gettrack(){
+Return new track(album):
+}
+}
+Public class album{
+Private string name;
+Private string singer;
+/***
+Processing : initilization
+***/
+Public album(string n, string s {
+name =n;
+singer =s;
+}
+/***
+Input: no input
+Processing: it’s initialization album name
+Output: there will be not out put
+***/
+Public void set name(string n){
+name=n;
+ }
+/**
+Process :initialization album track
+***/
+Public void setsinger(string s){
+Singer = s;
+}
+/**
+Input: no
+processing : returns to initialization album name
+**/
+Public String getName(){
+Return name;
+}
+Public String getName(){
+Return Name;
+}
+/
+***
+Returning to intializition.
+**/
+Public string getsinger(){
+Return artist;
+}
+
+Public album getalbum(){
+Return new (   album   , singer);
+}
+}
+public class linkedlist{
+
+        private track front;
+         private track back;
+         Private int area;
+
+/**
+Processing : it create the empty LinkedList
+**/
+public LinkedList(){
+Size =0;
+}
+/***
+It will return to the front track
+**/
+Public track getFront(){
+Return head;
+}
+/*
+It will return to back track
+*/
+Public track getBack(){
+Return back;
+}
+/*
+Output , it will to next track
+**/
+Public track getNextone(){
+Return getFront().nextone;
+}
+ Public int getArea(){
+Return area;
+}
+Public boolean hasNextone(){
+If (getFront()==null   ||getNextone()==null)
+return false;
+Else return true;
+}
+Public void sum(track recent){
+If (Front !=null){
+back.Nextone = recent;
+back=recent;
+}
+Else recent = back;
+}
+Public void delete (int index){
+If (index != -1) back = back.nextone;
+Else front = head.next;
+
+}
+}
+Public class  albumhistorylist(){
+History = new LinkedList();
+}
+/*
+It sum the album track
+**/
+Public void sumAlbum (track album)
+history.sum(album);
+}
+Public void remove(int index){
+If (history != null)
+history.remove(index);
+}
+Public LinkedList getAlbumHist(){
+Return history;
+}
+}
+public class AlbumList{
+Private LinkedList AlbumList;
+Private static AlbumHistoryList historyPointer = new AlbumHistoryList();
+ private track recent;
+
+ Public AlbumList(){
+AlbumList =new LinkedList();
+}
+Public AlbumHistoryList getHistList(){
+Return historypointer;
+}
+public  Album finAlbum(string identify){
+recent = albumList.getHead();
+while  (recent!=null){
+If (recent.getalbum().getsubject().equals(identify)
+Return recent.getalbum();
+Recent = recent.getNext();
+Recent = recent.getNext();
+}
+return null;
+Public track NextAlbum()throws Exception{
+historyPointer.addAlbum(current);
+if(recent==null)throw exception(“ no next album return recent)
+}
+Public LinkedList getAlbumList (){
+Return albumList;
+}
+
+Import java.io.*;
+Import java.util,*;
+Public class lineArray{
+Private static final int area 5;
+String name []= new string[area];
+Private Scanner input;
+
+/**
+Its put files files from song names and singers from the text files
+**/
+public linArray(String f) throws Exception{
+input=new Scanner (new file(f));
+while (i<area){
+fileData[i]=input.next();
+String[]temp =fileData[i].split(“,”);
+}
+}
+Public string[]getNames(){
+Return Names;
+}
+Public string []getSinger(){
+Return singer;
+Public class Arraystack{
+Private static final int max =14;
+static  object [] album=new string[max];
+Public arraystack(object[]list){
+for  (int i =0;i<list,length;i++){
+High =i;
+album[high]=list[high];
+}
+}
+Public boolean sumalbum(string element){
+If (high>=max-1){
+system.out.println(“overflow”);
+Return false;
+}
+Else{
+album[high++]=element;
+system.out.println(“pushed toward stack”);
+Return true;
+}
+
+Public static  item getendinglistened(){
+If ( high<0){
+system.out.println(“underflow”);
+Return none;
+}
+Else{
+Item z = album(high---];
+Return z;
+}
+
+}
+
+
+
+
+
+
+
+
